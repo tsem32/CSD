@@ -1,0 +1,49 @@
+lvalue ==> ID 
+const ==> number 
+primary ==>  const
+term ==> primary
+expr ==> term  
+assignexpr ==> lvalue = expr 
+expr ==> assignexpr  
+stmt ==> expr; 
+lvalue ==> ID 
+primary ==>  lvalue
+term ==> primary
+expr ==> term  
+const ==> number 
+primary ==>  const
+term ==> primary
+expr ==> term  
+expr ==>  expr < expr 
+lvalue ==> ID 
+primary ==>  lvalue
+term ==> primary
+expr ==> term  
+const ==> number 
+primary ==>  const
+term ==> primary
+expr ==> term  
+expr ==>  expr > expr  
+expr ==>  expr or expr  
+lvalue ==> ID 
+const ==> number 
+primary ==>  const
+term ==> primary
+expr ==> term  
+assignexpr ==> lvalue = expr 
+expr ==> assignexpr  
+stmt ==> expr; 
+lvalue ==> ID 
+term ==> lvalue++
+expr ==> term  
+stmt ==> expr; 
+statements ==> empty 
+statements ==> stmt statements
+block ==> [stmt*]
+stmt ==> block 
+whilestmt ==> while (expr) stmt
+stmt ==> whilestmt  
+statements ==> empty 
+statements ==> stmt statements
+statements ==> stmt statements
+ program ==> statements 

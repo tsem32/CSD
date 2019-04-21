@@ -1,0 +1,5 @@
+longnamevariable(x=3);
+m=4; //m=3
+/* asf /*asd /*nest*/ */  */ 
+"string123     \n\t k\t k\n this     k\" is a test k\\ file k\\\\ ";
+"this is a sting"
