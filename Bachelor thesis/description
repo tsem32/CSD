@@ -1,0 +1,12 @@
+
+My bachelor thesis implements an event scheduler in order to help Home Care-Nursing employees
+of the General Hospital of Crete organize their visits.
+It provides a private event scheduler along with a team-group scheduler.
+Home nurses can access and modify each patient background history.
+
+HTML5
+CSS
+BootStrap
+AJAX
+JSP
+Servlets
